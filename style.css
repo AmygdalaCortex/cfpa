@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+main {
+    background-color: rgb(240, 247, 252);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+
+/*header*/
+
+header {
+    height: 100vh;
+    background-image: url("./images/IMG-20251113-WA0013.jpg");
+    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.header-content {
+    padding: 15px;
+    color: white;
+background-color: rgba(0, 0, 0, 0.418);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+.header-content h1:nth-child(4){
+    color: yellowgreen;
+}
+
+.h-img {
+    height: 200px;
+    width: 200px;
+   
+}
+
+.info {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(28, 31, 32, 0.13);
+    border-radius: 20px;
+    position: relative;
+    bottom: 20px;
+    
+}
+
+.info-cont {
+    width: 70%;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+/*image gallery*/
+
+#img-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-gallery{
+    width: 80%;
+    margin: 20px auto;
+    height: 60vh;
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+}
+.img-box{
+    flex-grow: 1;
+    flex-basis: 0;
+    transition: 0.5s;
+}
+.img-box:hover{
+    flex-basis: 50%;
+}
+.g-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 4px 4px rgba(28, 31, 32, 0.13);
+    border-radius: 20px;
+}
+
+/*specs section*/
+
+#specs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 20px 0;
+    width: 90%;
+    gap: 30px;
+    padding: 30px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(28, 31, 32, 0.13);
+    
+}
+
+.specs-cont {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.specs-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 4px rgba(28, 31, 32, 0.13);
+}
+
+/*list*/
+
+ul {
+    text-align: left;
+}
+
+li {
+    line-height: 30px;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*cartes*/
+#cartes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    gap: 40px;
+    padding: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.cartes {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.carte {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 350px;
+    background-color: white;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(28, 31, 32, 0.13);
+    transition: 0.3s;
+}
+
+.carte-img {
+    width: 100%;
+    height: 60%;
+    border-bottom: 3px rgb(34, 137, 255) solid;
+}
+
+.c-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carte-cont{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.carte:hover {
+    transform: scale(102%) translateY(-10px);
+    transition: 0.3s;
+}
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(182, 220, 247);
+    
+
+}
+a{
+    color: rgb(43, 167, 255);
+    font-weight: 600;
+}
+
+a:hover {
+    color: rgb(79, 182, 255);
+    
+}
+
+.footer-text {
+    word-spacing: 2px;
+}
